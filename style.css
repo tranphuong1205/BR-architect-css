@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+#main{
+background-color: aliceblue;
+position: relative;
+}
+#header{
+    background-color: #ffffff;
+    width: 100%;
+    height: 54.5px;
+    padding:8px 16px;
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 4px;
+    
+}
+#header a {
+    text-decoration: none;
+    color:#333
+}
+li{
+    display: inline-block;
+}
+#container{
+
+}
+#container .content{
+
+}
+.cover{
+    background-image: url('./architect.jpg');
+}
+#footer{
+
+}
+.right{
+    position:absolute;
+    display: inline-block;
+    right: 16px;
+}
+#nav li {
+    padding: 8px 16px;
+}
+
+.b {
+    font-weight: 600;
+}
+#header li:hover {
+    background-color: lightcoral;
+}
